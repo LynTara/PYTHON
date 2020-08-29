@@ -40,3 +40,6 @@ class TestTesterHome(object):
         sleep(10)
         self.driver.quit()
 
+    def test_cookie(self):
+        print(self.driver.get_cookies())
+

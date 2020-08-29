@@ -18,7 +18,9 @@ class TesterHome(object):
         self.driver.get('https://testerhome.com/')
 
     # def test_basic(self):
-    #     self.driver.maximize_window()
+    #   self.driver.maximize_window()
+    #
+
 
     def test_TesterHome(self):
         # r=requests.get(self.url)
@@ -40,6 +42,9 @@ class TesterHome(object):
     def tear_down(self):
         # self.sleep(10)
         self.driver.quit()
+
+    def test_cookie(self):
+        print(self.driver.get_cookies())
 
 
 
