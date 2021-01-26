@@ -1,0 +1,8 @@
+config:
+    name: login with different accountslo
+
+testcases:
+-
+    name: login system
+    testcase: login.yml
+    parameter:

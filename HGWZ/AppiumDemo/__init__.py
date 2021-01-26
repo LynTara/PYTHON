@@ -1,0 +1,2 @@
+def ProfilePage():
+    return None

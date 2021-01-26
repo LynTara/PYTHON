@@ -1,0 +1,13 @@
+
+loginByPassword:
+  - locator: com.xueqiu.android:id/login_account
+    by: id
+    action: sendkeys
+    text: 15168228946
+  - locator: com.xueqiu.android:id/login_password
+    by: id
+    action: sendkeys
+    text: 111111
+  - locator: com.xueqiu.android:id/button_next
+    by: id
+    action: click
